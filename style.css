@@ -1,7 +1,9 @@
 body{
-    background-color: rgb(104, 63, 63);
-    color:blue
+    background-color: rgb(201, 177, 22);
+    color:rgb(233, 22, 22)
 }
 details{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    
 }

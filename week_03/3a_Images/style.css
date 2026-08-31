@@ -1,0 +1,27 @@
+body{
+background-color: crimson;
+}
+
+.container{
+    background-color: black;
+    border: 2px solid ivory ;
+    min-height:100px;
+    padding: 20px;
+    color:ivory ;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    overflow: auto;
+    /* Auto Center things */
+}
+
+.container image{
+    width: 20%;
+    margin: 20px;
+    padding: 20px;
+}
+
+.left{
+    clear: both;
+    clear:left  ;
+}
