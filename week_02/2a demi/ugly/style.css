@@ -1,0 +1,23 @@
+body{
+background-image: url(wikiimages-galaxy-11188_1920.jpg);
+background-size: cover;
+color: purple;
+text-align: center;
+}
+/* Affect h1 header, testing out different things */
+h1{
+font-size: xx-large;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: goldenrod;
+text-align: center;
+
+}
+
+/* Affect h2 header, alongside having the rgba */
+h2{
+
+font-size: x-large;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgba(255, 255, 0, 0.5);
+text-align: right;
+}
