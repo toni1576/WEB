@@ -6,14 +6,16 @@ caption{
     color:black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: xx-large;
+    text-align: center;
 }
 
 table{
     width: 70%;
-    border-style:initial;
+    border: 2px solid black;
     border-collapse:collapse;
-    border-color: white;
-    height: 60%;
+    text-align: left;
+   
+
  
 }
 
@@ -22,5 +24,15 @@ td{
     border: 2px solid black;
     font-size: larger;
    
+}
+
+.highlight-cell{
+    background-color: red;
+}
+
+
+th, td{
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
