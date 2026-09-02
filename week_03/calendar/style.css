@@ -1,0 +1,26 @@
+body{
+background-color: white;    
+}
+
+caption{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+table{
+    width: 70%;
+    border-style:initial;
+    border-collapse:collapse;
+    border-color: white;
+    height: 60%;
+ 
+}
+
+td{
+    color: black;
+    border: 2px solid black;
+    font-size: larger;
+   
+}
+
