@@ -1,0 +1,43 @@
+
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-dark: rgb(161, 144, 18);
+  --accent:rgb(110, 34, 34);
+  --primary-light: rgb(255, 255, 255);
+}
+
+body{
+  background-color:var(--primary-dark);
+}
+
+.flexbox-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.flexbox-container div {
+  background-color: var(--primary-light);
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+}
+
+/* .card {
+  background:var(--primary-dark);
+  color: var(--primary-light);
+  width: 40%;
+  min-height: 150px;
+  o
+} */
+
+/* h1{
+  color:var(--primary-light);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+} */
