@@ -1,0 +1,40 @@
+:root{
+    --primary-color: purple;
+    --light-text: white;
+    --dark-text: orange;
+    --accent-color: red;
+}
+
+.column-card {
+    display: inline-block;
+    width: 48%;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin: 1%;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dashed black;
+    cursor: help;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 180px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -90px;
+    opacity: 0;
+    transition: opacity 0.3s;
+} /* This targets the .tooltiptext element ONLY when it is nested inside an element with the .tooltip class */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+} /* This targets the nested .tooltiptext child element ONLY when the parent .tooltip element is hovered over */
