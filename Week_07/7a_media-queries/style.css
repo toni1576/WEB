@@ -1,0 +1,154 @@
+ :root {
+	--color-ink: #1f2937;
+	--color-slate: #475569;
+	--color-mist: #e2e8f0;
+	--color-paper: #f8fafc;
+	--color-teal: #0f766e;
+	--color-sky: #0284c7;
+	--color-gold: #d97706;
+	--color-coral: #e11d48;
+	--color-white: #ffffff;
+}
+
+
+/* AI generated standard CSS reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Cell phone layout */
+
+
+
+
+body{
+    background: var(--color-coral);
+    font-family: Arial, sans-serif;
+    color: var(--color-ink);
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background: var(--color-sky);
+    color: var(--color-white);
+    padding:10px;
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: 3px solid var(--color-sky);
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+
+
+/* Custom styles go below this comment */
+
+
+/* Media queries */
+body{
+    background: var(--color-coral);
+}
+
+
+
+/* Tablet and up */
+@media (min-width: 768px) {
+    body{
+        background: var(--color-gold);
+    }
+
+    .banner{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Computer and up */
+@media (min-width: 1024px) {
+    body{
+        background: var(--color-sky);
+    }
+
+}
+
+
+.card{
+    background: var(--color-paper);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition:transform 0.2 ease, box-shadow 0.2 ease;
+    min-height: 200px;
+}
+
+
+.card header{
+    background: var(--color-mist);
+    color: var(--color-ink);
+    text-align: center;
+    min-height: 100px;
+}
+
+.card .card-body{
+    background: var(--color-paper);
+    color: var(--color-ink);
+}
